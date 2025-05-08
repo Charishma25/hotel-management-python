@@ -1,31 +1,52 @@
-# hotel-management-python
-# Hotel-Management-System
-The Hotel Management System is designed to streamline the workflow of hotel staff, 
-enhance guest services, and provide a centralized platform for managing all hotel-related
-operations. The use of Tkinter ensures a visually appealing and intuitive user interface, 
-while SQL ensures a robust and scalable database structure for data management.
-This project is ideal for those seeking to contribute to the hospitality industry by 
-providing a flexible and efficient solution for hotel management.
+# 🏨 Hotel Management System (Python CLI Version)
 
-1)Login Form:Secure login system for authorized access to the HMS.
+This is a simple command-line-based **Hotel Management System** implemented in Python. It allows hotel staff to manage rooms, check in/out customers, and view reports, all through a clean console interface.
 
-2)Hotel Status:Real-time display of the hotel's status, providing an overview of occupancy and available rooms.
+## 📌 Features
 
-3)Room Availability:Dynamic tracking of the number of rooms available, facilitating efficient room allocation.
+- ✅ Add new rooms to the hotel inventory  
+- ✅ Book rooms for customers (Check-in)  
+- ✅ Check out customers and calculate payment  
+- ✅ Search for customer by name  
+- ✅ View available (unbooked) rooms  
+- ✅ Generate guest summary report  
+- ✅ Console-based interaction (no GUI required)  
 
-4)Guests Data:Storage and management of guest information, including personal details and check-in/check-out dates.
+## 🛠️ Technologies Used
 
-5)Room Types:Categorization of rooms based on types (e.g., standard, deluxe, suites) with corresponding features and rates.
+- **Python 3**
+- Object-Oriented Programming (OOP)
+- Command-line interface (CLI)
 
-6)Room Data:Detailed information on each room, such as room number, type, status, and current occupant.
+## 📂 Folder Structure
 
-7)Room Service Info:Record and manage room service requests and expenses, enhancing guest experience.
+hotel-management-system-python/
+│
+├── hotel.py # Main application script
+└── README.md # Project documentation
 
-8)Reservations:Seamless reservation system allowing for advance booking and scheduling of rooms.
 
-9)PaymentS:Integration of a secure payment gateway for handling transactions, ensuring a smooth and reliable payment process.
+## 🚀 Getting Started
 
-10)Data Organization:Efficient organization and retrieval of data using SQLite database for scalability and data integrity.
+### Prerequisites
+
+Make sure Python 3 is installed on your machine.  
+Check by running:
+```bash
+python --version
+Run the Program
+python hotel.py
+## 📸 Sample Menu
+######## Hotel Management #########
+1. Manage Rooms
+2. Check-In Room
+3. Available Rooms
+4. Search Customer
+5. Check-Out Room
+6. Guest Summary Report
+7. Exit
+
+
 
 
 
